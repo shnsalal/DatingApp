@@ -1,0 +1,30 @@
+-dotnet --info
+-donet --version
+-dotnet new webapi -n DatingApp.API
+-dotnet run
+-download nuget extention
+-dotnet watch run
+-in nugat Microsoft.EntityFrameworkCore
+-inherit DbContext
+-construction - DbContextOptions options : base(options);
+-property MatchdatabaseTable - DbSet<Value> Values
+-Startup->Configuration->AddServices = services.AddDbContext<DataContext> (x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+dotnet tool install --global dotnet-ef --version 3.0.0
+-dotnet ef -h
+-dotnet ef migrations add InitialCreate
+-dotnet ef database update
+-npm install -g @angular/cli
+-ng new DatingApp-SPA
+-extenion = angular snippt, angular file, angular rename tag, braket pari colorizer, material icon theme, Prettier, Tslint, angular2-switcher
+-services.AddCors(); in ConfigureServices
+-app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); in Configur
+-npm install bootstrap font-awesome
+
+
+
+
+after 3 month we will be in same project in which we are or in your project
+if- yes  = is there any development in your project?
+               what is possibility to getting development in your project.
+
+if-no = then okay
