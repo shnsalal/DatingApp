@@ -19,6 +19,8 @@ dotnet tool install --global dotnet-ef --version 3.0.0
 -services.AddCors(); in ConfigureServices
 -app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); in Configur
 -npm install bootstrap font-awesome
+addScoped<IRepo, Repo>()
+passwordHash + passwordSalt
 
 
 
