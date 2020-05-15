@@ -21,6 +21,23 @@ dotnet tool install --global dotnet-ef --version 3.0.0
 -npm install bootstrap font-awesome
 addScoped<IRepo, Repo>()
 passwordHash + passwordSalt
+Microsoft.IdentityModel.Tokens --nogat package manager
+dotnet user-secrets init
+
+Form Valid: {{ loginForm.vaild }}
+Form Touched: {{ loginForm.touched}}
+Form Dirsty: {{ loginForm.touched}}
+Form Values: {{ loginForm.value | json}}
+
+Username Valid: {{ username.vaild }}
+Username Touched: {{ username.touched }}
+Username Dirsty: {{ username.dirty }}
+Username Values: {{ username.value | json}}
+
+Password Valid: {{ password.vaild }}
+Password Touched: {{ password.touched }}
+Password Dirsty: {{ password.dirty }}
+Password Values: {{ password.value | json}}
 
 
 
