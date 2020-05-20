@@ -41,7 +41,8 @@ Password Values: {{ password.value | json}}
 
 npm install alertifyjs
 npm install @auth0/angular-jwt
-
+npm install ngx-bootstrap --save
+npm install bootswatch.
 
 
 
