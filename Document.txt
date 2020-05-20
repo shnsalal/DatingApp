@@ -44,7 +44,25 @@ npm install @auth0/angular-jwt
 npm install ngx-bootstrap --save
 npm install bootswatch.
 
+setting up routing-> using RouterLinkActive-> using routing in code-> protecting routing -> protecting multiple routing at once
+export const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent}
+];
 
+for single canActivate
+{
+    path: '',
+    runGuardsAndResolvers: 'always',
+    canActivate: [AuthGuard],
+    children: [
+      { path: 'members', component: MemberListComponent},
+      { path: 'messages', component: MessagesComponent},
+      { path: 'lists', component: ListsComponent},
+    ]
+  },
+
+ng g guard auth --skipTests
+canActivate -> define in route.ts
 
  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
